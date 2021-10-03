@@ -28,6 +28,7 @@ public abstract class Character extends Entity {
 	
 	protected boolean moving;
 	protected boolean coolingDown;
+	protected boolean lastChance;
 	
 	protected Animation moveAnim;
 	
@@ -156,8 +157,9 @@ public abstract class Character extends Entity {
 		int extraHP = 0;
 		if(HP < this.HP && HP <= maxHP*0.15 || HP <= 4) {
 			this.gainUnstable(0.90f, 15, 20);
-			if(this.isUnstable()) {
+			if(this.isUnstable() && !lastChance) {
 				extraHP = 5;
+				lastChance = true;
 			}
 		}
 		else if(HP < this.HP) {

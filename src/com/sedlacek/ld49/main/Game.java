@@ -214,6 +214,11 @@ public class Game extends Canvas implements Runnable{
 			g.setFont(new Font("DorFont03", Font.BOLD, 48));
 			g.drawString("You did it! You escaped!", Config.WIDTH/2-g.getFontMetrics().stringWidth("You did it! You escaped!")/2, Config.HEIGHT/2-30);
 		}
+		if(state == State.GAME_WON || state == State.GAME_OVER) {
+			g.setColor(Color.lightGray);
+			g.setFont(new Font("DorFont03", Font.PLAIN, 24));
+			g.drawString("Made for Ludum Dare 49 by Marek Sedlacek (Twitter: @Sedlacek)", Config.WIDTH/2-g.getFontMetrics().stringWidth("Made for Ludum Dare 49 by Marek Sedlacek (Twitter: @Sedlacek)")/2, Config.HEIGHT/2+10);
+		}
 		
 		if(Config.showInfo){
 			g.setFont(new Font("Consolas", Font.PLAIN, 11));
