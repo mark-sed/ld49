@@ -1,0 +1,153 @@
+<?xml version='1.0'?>
+<anim>
+<idle>
+	<delay>500</delay>
+	<sprite>/joker.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>1</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+	<image>
+		<c>2</c>
+		<r>1</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+</idle>
+<walking>
+	<delay>150</delay>
+	<sprite>/joker.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>3</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>3</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>3</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>3</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+</walking>
+<attack>
+	<delay>100</delay>
+	<sprite>/joker.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>2</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>2</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>2</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>2</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+</attack>
+<idleUnstable>
+	<delay>500</delay>
+	<sprite>/joker.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>4</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+	<image>
+		<c>2</c>
+		<r>4</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+</idleUnstable>
+<attackUnstable>
+	<delay>90</delay>
+	<sprite>/joker.png</sprite>
+	<ts>16</ts>
+    <image>
+		<c>1</c>
+		<r>5</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>5</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>5</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>5</r>
+		<w>12</w>
+		<h>16</h>
+	</image>
+</attackUnstable>
+<walkingUnstable>
+	<delay>150</delay>
+	<sprite>/joker.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>6</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>6</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>6</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>6</r>
+		<w>10</w>
+		<h>16</h>
+	</image>
+</walkingUnstable>
+</anim>

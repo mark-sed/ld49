@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<anim>
+<idle>
+	<delay>100</delay>
+	<sprite>/rat.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+</idle>
+<idleCombat>
+	<delay>100</delay>
+	<sprite>/rat.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>1</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+</idleCombat>
+<attack>
+	<delay>100</delay>
+	<sprite>/rat.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>2</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>2</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>2</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>2</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>5</c>
+		<r>2</r>
+		<w>13</w>
+		<h>16</h>
+	</image>
+</attack>
+</anim>

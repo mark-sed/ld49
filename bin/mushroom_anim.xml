@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<anim>
+<idle>
+	<delay>1000</delay>
+	<sprite>/mushroom.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>1</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+</idle>
+<attack>
+	<delay>230</delay>
+	<sprite>/mushroom.png</sprite>
+	<ts>16</ts>
+	<image>
+		<c>1</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>2</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>3</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>4</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>5</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+    <image>
+		<c>6</c>
+		<r>1</r>
+		<w>16</w>
+		<h>16</h>
+	</image>
+</attack>
+</anim>
