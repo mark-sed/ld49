@@ -13,7 +13,6 @@ import com.sedlacek.ld49.graphics.ImageLoader;
 import com.sedlacek.ld49.graphics.SpriteSheet;
 import com.sedlacek.ld49.main.CollisionBox;
 import com.sedlacek.ld49.main.Config;
-import com.sedlacek.ld49.main.Game;
 
 public class Rat extends Enemy {
 

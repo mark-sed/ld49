@@ -33,7 +33,6 @@ public abstract class Character extends Entity {
 	
 	protected ArrayList<Ability> stableAbilities, unstableAbilities;
 	
-	private long lastTime;
 	
 	protected void updatePosition(int position) {
 		this.x = (Player.CHAR_AMOUNT - position) * widestAnim * Config.SIZE_MULT + (Player.CHAR_AMOUNT - position);

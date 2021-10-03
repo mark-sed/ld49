@@ -1,10 +1,5 @@
 package com.sedlacek.ld49.main;
 
-import javax.sound.sampled.LineEvent;
-import javax.sound.sampled.LineListener;
-import java.util.Random;
-import java.util.stream.StreamSupport;
-
 public class AudioGalery {
 
     /*public static AudioPlayer goodNotification = new AudioPlayer("/soundNotif.wav");

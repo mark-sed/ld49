@@ -20,7 +20,6 @@ import com.sedlacek.ld49.player.Player;
 
 public class Room {
 
-	private int number;
 	private BufferedImage bckg;
 	public LevelState startingState = LevelState.EXPLORING;
 	public ArrayList<Enemy> enemies;
@@ -39,7 +38,6 @@ public class Room {
 	public Shop shop;
 	
 	public Room(int number) {
-		this.number = number;
 		this.bckg = ImageLoader.loadNS("/sewer.png");
 		enemies = new ArrayList<Enemy>();
 		this.fillRoom(number);
@@ -221,7 +219,7 @@ public class Room {
 			}
 			Game.game.player.moveAll(0, scrollSpeed);
 			lastTime = System.currentTimeMillis();
-			Game.game.levelState = LevelState.EXPLORING;
+			Game.levelState = LevelState.EXPLORING;
 		}
 		
 		if(initializing && y <= yMin) {
@@ -231,7 +229,7 @@ public class Room {
 			uninitializing = false;
 		}
 		
-		if(Game.game.levelState == LevelState.COMBAT) {
+		if(Game.levelState == LevelState.COMBAT) {
 			boolean wasMouseOver = false;
 			StatsBar currPlayerStats = null;
 			for(StatsBar s: statsBars) {

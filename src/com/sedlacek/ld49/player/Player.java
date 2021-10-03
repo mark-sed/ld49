@@ -94,7 +94,7 @@ public class Player {
 			}
 		}else {
 			if(characters[CHAR_AMOUNT-1].getX() >= Config.WIDTH) {
-				Game.game.level.nextLevel();
+				Game.level.nextLevel();
 				for(Character c: characters) {
 					c.setX(c.getX()-Config.WIDTH-450);
 					c.setMoving(false);

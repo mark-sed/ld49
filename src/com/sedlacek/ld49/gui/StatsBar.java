@@ -142,7 +142,7 @@ public class StatsBar {
 			g.drawImage(Game.level.selector.getAbility().getIcon(), 10, y-74, 64, 64, null);
 		}
 		
-		if(Game.game.level.getCurrentPlayer() != e) {
+		if(Game.level.getCurrentPlayer() != e) {
 			g.setColor(new Color(0,0,0,60));
 			g.fillRect(x, y, WIDTH, HEIGHT);
 		}

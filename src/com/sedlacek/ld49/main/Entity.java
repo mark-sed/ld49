@@ -82,7 +82,7 @@ public abstract class Entity extends GameObject {
 			}
 			else {
 				if(this.enemy) {
-					for(Enemy e: Game.game.level.getEnemies()) {
+					for(Enemy e: Game.level.getEnemies()) {
 						if(e.getHP() <= 0) {
 							continue;
 						}

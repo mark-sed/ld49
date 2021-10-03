@@ -5,7 +5,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.GraphicsEnvironment;
-import java.awt.Menu;
 import java.awt.Rectangle;
 import java.awt.image.BufferStrategy;
 import java.io.InputStream;
@@ -73,9 +72,7 @@ public class Game extends Canvas implements Runnable{
 
 	public static boolean paused = false;
 
-	private AudioGalery audioGalery;
 	private static boolean mute = false;
-	private Menu menu;
 	public static Level level;
 	public Player player;
 

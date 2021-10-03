@@ -1,11 +1,10 @@
 package com.sedlacek.ld49.main;
 
-import javax.sound.sampled.*;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
 
 public class AudioPlayer {
-
-    private static float mainVolume = -5.0f;
-    private static float decay = 0.12f;
 
     public Clip clip;
 

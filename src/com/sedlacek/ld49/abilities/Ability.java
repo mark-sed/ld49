@@ -40,7 +40,7 @@ public abstract class Ability {
 	protected Target target;
 	
 	public void clicked() {
-		if(Game.game.level.getCurrentPlayer() != owner) {
+		if(Game.level.getCurrentPlayer() != owner) {
 			return;
 		}
 		if(this.skip) {

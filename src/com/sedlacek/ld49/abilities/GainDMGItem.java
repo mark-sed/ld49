@@ -2,12 +2,10 @@ package com.sedlacek.ld49.abilities;
 
 import java.util.Random;
 
-import com.sedlacek.ld49.abilities.Ability.Target;
 import com.sedlacek.ld49.graphics.ImageLoader;
 import com.sedlacek.ld49.graphics.Indicator;
 import com.sedlacek.ld49.graphics.SpriteSheet;
 import com.sedlacek.ld49.gui.AbilityButton;
-import com.sedlacek.ld49.main.Entity;
 import com.sedlacek.ld49.main.Game;
 
 public class GainDMGItem extends Item {

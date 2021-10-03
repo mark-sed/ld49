@@ -4,11 +4,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Random;
 
 import com.sedlacek.ld49.abilities.Ability;
 import com.sedlacek.ld49.abilities.AttackAbility;
-import com.sedlacek.ld49.abilities.HealAbility;
 import com.sedlacek.ld49.abilities.SkipTurnAbility;
 import com.sedlacek.ld49.graphics.Animation;
 import com.sedlacek.ld49.graphics.ImageLoader;

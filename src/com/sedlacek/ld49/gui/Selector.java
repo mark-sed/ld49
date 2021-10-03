@@ -6,14 +6,9 @@ import java.awt.Graphics;
 import com.sedlacek.ld49.abilities.Ability;
 import com.sedlacek.ld49.main.Entity;
 import com.sedlacek.ld49.main.Game;
-import com.sedlacek.ld49.main.GameObject;
 
 public class Selector {
 
-	private int x;
-	private int y;
-	private int w;
-	private int h;
 	private Entity o;
 	private Ability ability;
 	private Color color;

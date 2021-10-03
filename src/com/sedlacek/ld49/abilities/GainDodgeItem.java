@@ -2,7 +2,6 @@ package com.sedlacek.ld49.abilities;
 
 import java.util.Random;
 
-import com.sedlacek.ld49.abilities.Ability.Target;
 import com.sedlacek.ld49.graphics.ImageLoader;
 import com.sedlacek.ld49.graphics.Indicator;
 import com.sedlacek.ld49.graphics.SpriteSheet;

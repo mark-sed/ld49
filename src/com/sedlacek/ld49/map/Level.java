@@ -19,7 +19,6 @@ import com.sedlacek.ld49.main.Game.Turn;
 public class Level {
 
 	private static int LEVEL_SIZE = 42;
-	private static int LEVEL_FLOORS = 1;
 	
 	public Room[] rooms;
 	public int currentRoom = 0;

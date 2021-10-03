@@ -1,6 +1,5 @@
 package com.sedlacek.ld49.abilities;
 
-import com.sedlacek.ld49.abilities.Ability.Target;
 import com.sedlacek.ld49.graphics.ImageLoader;
 import com.sedlacek.ld49.graphics.SpriteSheet;
 import com.sedlacek.ld49.gui.AbilityButton;
